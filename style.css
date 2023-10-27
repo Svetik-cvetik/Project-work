@@ -52,4 +52,11 @@ header-logo {
 header-navigation {
   display: flex;
   flex-direction: row;
+}
+header-navigation_items {
+  gap: 32px;
+  font-family: Inter-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */

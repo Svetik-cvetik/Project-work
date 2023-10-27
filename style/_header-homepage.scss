@@ -8,7 +8,7 @@ header {
     &-logo{
         padding-right: 610px;
     }
-    
+
     &-navigation {
         display: flex;
         flex-direction: row;
@@ -16,7 +16,7 @@ header {
         &_items {
             gap: 32px;
             @include font-par (Inter-medium, normal, 500, 16px)
-    
+
             &_item:last-child {
                 padding-left: 68px;
                 text-decoration: line-through;
@@ -24,8 +24,6 @@ header {
             }
     
         }
-    }
-
-   
+           
+        }
 }
-
