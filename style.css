@@ -19,4 +19,37 @@ a {
 
 li {
   list-style: none;
+}
+
+@font-face {
+  font-family: "Inter-medium";
+  src: url(../src/fonts/Inter-Medium.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Inter-semiBold";
+  src: url(../src/fonts/Inter-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Inter-bold";
+  src: url(../src/fonts/Inter-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 120px 22px 120px;
+}
+header-logo {
+  padding-right: 610px;
+}
+header-navigation {
+  display: flex;
+  flex-direction: row;
 }/*# sourceMappingURL=style.css.map */

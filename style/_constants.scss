@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Inter-medium";
+    src: url(../src/fonts/Inter-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Inter-semiBold";
+    src: url(../src/fonts/Inter-SemiBold.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Inter-bold";
+    src: url(../src/fonts/Inter-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+@mixin font-par ($ff, $fst, $fw, $fsz ) {
+    font-family: $ff;
+    font-style: $fst;
+    font-weight: $fw;
+    font-size: $fsz;    
+}

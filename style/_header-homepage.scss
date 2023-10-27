@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 120px 22px 120px;
+
+    &-logo{
+        padding-right: 610px;
+    }
+    
+    &-navigation {
+        display: flex;
+        flex-direction: row;
+
+        &_items {
+            gap: 32px;
+            @include font-par (Inter-medium, normal, 500, 16px)
+    
+            &_item:last-child {
+                padding-left: 68px;
+                text-decoration: line-through;
+                font-weight: 600;
+            }
+    
+        }
+    }
+
+   
+}
+
